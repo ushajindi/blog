@@ -37,11 +37,13 @@ module.exports = {
     'import/prefer-default-export': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
     '@typescript-eslint/default-param-last': 'off',
-    '@typescript-eslint/no-shadow': 'off',
+
     'import/no-extraneous-dependencies': 'off',
     'import/no-cycle': 'off',
     'react/jsx-props-no-spreading': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     'react-hooks/exhaustive-deps': 'off',
+    'no-param-reassign': 'off',
+    'no-useless-escape': 'off',
   },
 };
