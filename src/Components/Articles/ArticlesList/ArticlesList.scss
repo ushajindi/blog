@@ -1,0 +1,11 @@
+.articleslist {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  align-items: center;
+  &_articles {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+}

@@ -1,0 +1,38 @@
+.editaricle {
+  max-width: 938px;
+  background: white;
+  padding: 48px 32px;
+  h3 {
+    margin: 0;
+    text-align: center;
+  }
+  &_form {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    &_lebel {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    &_tags {
+      display: flex;
+      gap: 18px;
+      &_inner {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        &_tag {
+          display: flex;
+          gap: 18px;
+        }
+      }
+      &_btn {
+        display: flex;
+        align-items: flex-end;
+      }
+    }
+    &_btn button {
+      min-width: 23%;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  &_title {
+    display: block;
+    &_date span {
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}

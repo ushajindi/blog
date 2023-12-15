@@ -1,0 +1,60 @@
+.signup {
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+  &_inner {
+    display: flex;
+    background: white;
+    min-width: 320px;
+    flex-direction: column;
+    padding: 48px 32px;
+    h2 {
+      margin: 0;
+      padding-bottom: 21px;
+      text-align: center;
+    }
+    &_form {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      &_item {
+        margin-bottom: 0 !important;
+        &_label {
+          padding: 0;
+          margin: 0;
+        }
+        &_agreement {
+          display: inline-flex;
+          float: left;
+          gap: 10px;
+          align-items: center;
+          & input {
+            width: 25px;
+          }
+        }
+        &_error {
+          max-width: 320px;
+          text-align: center;
+        }
+        &_line {
+          border-top: 1px solid #e8e8e8;
+          margin-top: 9px;
+          margin-bottom: 8px;
+        }
+        &_btn {
+          display: flex;
+          justify-content: center;
+          margin-top: 8px;
+        }
+      }
+    }
+    &_signin {
+      color: #8c8c8c;
+      text-align: center;
+      a {
+        color: #1890ff;
+        text-decoration: none;
+      }
+    }
+  }
+}

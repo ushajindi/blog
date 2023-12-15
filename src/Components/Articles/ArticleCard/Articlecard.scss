@@ -1,0 +1,75 @@
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 901px;
+  background: white;
+  margin: 0;
+  padding: 13px 12px 24px;
+
+  &_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_user {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      &_btn {
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        &_modal {
+        }
+        &_edit {
+          border: 1px solid #52c41a;
+          color: #52c41a;
+        }
+      }
+    }
+    &_title {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      a {
+        h4 {
+          width: fit-content;
+          margin-right: 12px;
+          overflow-wrap: break-word;
+          white-space: pre-wrap;
+        }
+      }
+    }
+    &_title h4 {
+      margin: 0;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      width: 19em;
+    }
+  }
+  &_text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 48em;
+  }
+  &_tags {
+    max-width: 80%;
+
+    &_tag {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      white-space: pre-line;
+      & button {
+        & span {
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          width: 4em;
+        }
+      }
+    }
+  }
+}

@@ -37,7 +37,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
     '@typescript-eslint/default-param-last': 'off',
-
+    'react/jsx-no-useless-fragment': 'off',
     'import/no-extraneous-dependencies': 'off',
     'import/no-cycle': 'off',
     'react/jsx-props-no-spreading': 'off',
@@ -45,5 +45,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'off',
     'no-param-reassign': 'off',
     'no-useless-escape': 'off',
+    'react/require-default-props': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
   },
 };

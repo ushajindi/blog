@@ -1,0 +1,36 @@
+.fullarticle {
+  background: white;
+  width: 931px;
+  padding: 15px;
+  margin: 0 auto;
+  min-height: 80vh;
+  &_card {
+    margin-bottom: 15px;
+    .article {
+      padding: 0;
+      &_text span {
+        color: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+  h2 {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.75);
+    padding-bottom: 5px;
+  }
+  &_main {
+    margin-bottom: 15px;
+    &_subtitle {
+      margin: 0;
+      color: rgba(0, 0, 0, 0.75);
+      padding-bottom: 5px;
+    }
+    p {
+      margin: 0;
+    }
+    ol {
+      margin: 0;
+      padding-left: 15px;
+    }
+  }
+}
