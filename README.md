@@ -2,7 +2,7 @@
 # Проект "Blog App"
 
 Это проект для создания приложения To-Do List с использованием React, Vite и TypeScript.
-#Ссылка на приложения Vercel (https://kata-aviasales-xi.vercel.app/)](https://blog-olive-delta.vercel.app/)
+#Ссылка на приложения Vercel (https://blog-olive-delta.vercel.app/)
 ## Установка зависимостей
 
 Перед запуском проекта убедитесь, что у вас установлен Node.js и npm. Затем выполните следующие команды в корневой директории проекта:
